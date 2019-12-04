@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="header-content">
+    <img src="/img/rain.png" alt="">
+    {{>header}}
+</div>
+<form class="weather-form">
+    <input type="text" name="location" placeholder="Enter Location">
+    <input type="submit" value="Search">
+</form>
+<p id="msg-1"></p>
+<p id="msg-2"></p>
+{{>footer}}
+<script src="/js/plugin.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    font-family: Ubuntu,sans-serif;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+a{
+    color: deepskyblue;
+    text-decoration: none;
+}
+footer{
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 40px 0 40px 0;
+}
+.navbar a::after{
+    content: ' | ';
+}
+.navbar a:last-child::after{
+    content: '';
+}
+.header-content{
+    margin-top: 10px;
+}
+.header-content h1{
+    margin: 5px auto;
+}
+.header-content img{
+    width: 100px;
+}
+.weather-form input{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    transition: all 0.3s ease;
+}
+.weather-form input[type=text]:focus{
+     transition: all 0.3s ease;
+    border-color: aquamarine;
+ }
+.weather-form input[type=submit]{
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.weather-form input[type=submit]:hover{
+    background-color: white;
+    transition: all 0.3s ease;
+}
